@@ -1,0 +1,28 @@
+{
+  "name": "pull-error-mapper",
+  "version": "0.0.1",
+  "main": "./error-stream.js",
+  "description": "Map pull-stream errors.",
+  "homepage": "https://github.com/tounano/pull-error-mapper/",
+  "author": "ClickHere <js@clickhere.co.il>",
+  "keywords": [
+    "streams",
+    "pull-stream",
+    "errors",
+    "exceptions"
+  ],
+  "licenses": {
+    "type": "The MIT License",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tounano/pull-error-mapper"
+  },
+  "engines": {
+    "node": ">=0.6.11 <=0.7.0 || >=0.7.3"
+  },
+  "dependencies": {
+    "pull-stream": "latest"
+  }
+}
